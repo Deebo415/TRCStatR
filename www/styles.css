@@ -1,0 +1,941 @@
+/* TRCStatR Theme CSS
+   A youth-friendly, baseball-themed UI for 11-13 year old users
+*/
+
+/* Main theme colors and team colors */
+:root {
+  /* Base theme colors */
+  --trc-maroon: #800000;
+  --trc-light-maroon: #9c2440;
+  --trc-white: #FFFFFF;
+  --trc-light-gray: #f9f9fa;
+  --trc-gray: #e9e9e9;
+  --trc-dark-gray: #333333;
+  --trc-black: #000000;
+  
+   
+  /* Additional theme variables */
+  --body-font: 'Roboto', sans-serif;
+  --header-font: 'Freshman', sans-serif;
+  --text-color: #333333;
+  --background-color: #f5f5f5;
+  --border-radius: 8px;
+  --spacing-unit: 16px;
+  --header-size: 2.5rem;
+  --subheader-size: 1.8rem;
+  --body-size: 1rem;
+  --primary-dark: #800000;
+  --secondary-dark: #9c2440;
+  --primary-light: #C8E6C9;
+  --secondary-light: #BBDEFB;
+  
+  /* Official MLB Team colors - Standardized naming */
+  --team-red-sox-primary: #BD3039;  /* Official Red Sox Red */
+  --team-red-sox-secondary: #0C2340; /* Official Red Sox Navy */
+  --team-red-sox-tertiary: #FFFFFF; /* Official Red Sox White */
+  
+  --team-tigers-primary: #182D55;   /* Official Tigers Navy */
+  --team-tigers-secondary: #F26722; /* Official Tigers Orange */
+  --team-tigers-tertiary: #C4CED4; /* Official Tigers Gray */
+  
+  --team-giants-primary: #FD5A1E;   /* Official Giants Orange */
+  --team-giants-secondary: #27251F; /* Official Giants Black */
+  --team-giants-tertiary: #AE8F6F; /* Official Giants Gold */
+  
+  --team-cubs-primary: #0E3386;     /* Official Cubs Navy */
+  --team-cubs-secondary: #CC3433;   /* Official Cubs Red */
+  --team-cubs-tertiary: #FFFFFF;    /* Official Cubs White */
+  
+  --team-mets-primary: #002D72;     /* Official Mets Navy */
+  --team-mets-secondary: #FF5910;   /* Official Mets Orange */
+  --team-mets-tertiary: #FFFFFF;    /* Official Mets White */
+  
+  --team-royals-primary: #174885;   /* Official Royals Navy */
+  --team-royals-secondary: #7BB2DD; /* Official Royals Light Blue */
+  --team-royals-tertiary: #C0995A; /* Official Royals Gold */
+  
+  --team-guardians-primary: #00385D; /* Official Guardians Navy */
+  --team-guardians-secondary: #E50022; /* Official Guardians Red */
+  --team-guardians-tertiary: #FFFFFF; /* Official Guardians White */
+  
+  --team-orioles-primary: #DF4601;  /* Official Orioles Orange */
+  --team-orioles-secondary: #000000; /* Official Orioles Black */
+  --team-orioles-tertiary: #FFFFFF; /* Official Orioles White */
+  
+  /* Notification colors */
+  --notification-error-bg: #F44336;
+  --notification-success-bg: #4CAF50;
+  --notification-text-color: #FFFFFF;
+}
+
+.rank-list-container .rank-list-item {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-bottom: 8px;
+  cursor: grab;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.rank-list-container .rank-list-item:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #e9ecef;
+}
+
+.rank-list-container .rank-list-item.rank-list-item-dragged {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #dee2e6;
+}
+
+/* ===== LAYOUT AND CONTAINERS ===== */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.layout-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.layout-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--trc-light-gray);
+  border-radius: 0.5rem;
+}
+
+.dashboard-content {
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+.dashboard-body {
+  height: 100%;
+  overflow-y: auto;
+  padding: 0;
+}
+
+/* ===== HEADER STYLING ===== */
+.skin-red .main-header .navbar {
+  background: linear-gradient(135deg, var(--trc-maroon), var(--trc-light-maroon));
+  height: 120px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.app-title {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: none;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+}
+
+.app-title:hover {
+  transform: scale(1.05);
+}
+
+.title-text {
+  font-family: 'Freshman', sans-serif;
+  font-size: 4.5rem;
+  color: #fff !important; /* Force white for app title */
+  text-shadow: 2px 2px 0 var(--trc-black), -2px -2px 0 var(--trc-black), 
+               2px -2px 0 var(--trc-black), -2px 2px 0 var(--trc-black);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo-img {
+  border: none;
+  box-shadow: none;
+  height: 200px;
+  width: auto;
+  transition: transform 0.5s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+.empty-title {
+  display: none;
+  /* Empty placeholder title for layout purposes */
+}
+
+/* ===== SIDEBAR STYLING ===== */
+.sidebar-credits {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.15rem;
+  margin: 0;
+  padding: 0 0 10px 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.content-wrapper, .right-side {
+  margin-top: 120px;
+}
+
+.main-sidebar, .sidebar {
+  padding-top: 120px;
+  width: 230px;
+}
+
+.sidebar-menu {
+  margin-top: 10px;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ===== BUTTON STYLES ===== */
+.btn {
+  border-radius: 1.5rem !important;
+  padding: 0.625rem 1.5rem !important;
+  font-weight: bold !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.trc-button-primary {
+  background-color: #fff !important;
+  color: #111 !important; /* Force black for max contrast */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.trc-button-primary:hover {
+  background-color: var(--trc-light-maroon);
+  color: #111 !important; /* Force black for max contrast */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== FORM ELEMENTS ===== */
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-control {
+  border-radius: 1.5rem !important;
+  padding: 0.625rem 1.25rem !important;
+  font-size: 1rem !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.form-group label {
+  font-weight: bold;
+
+/* ===== BOX STYLES ===== */
+.box {
+  border: 1px solid #ddd;
+  background: #fff !important;
+  color: #111 !important;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* ... */
+
+.pitcher-entry.player-stats-entry {
+  background: #fff !important;
+  background-color: #fff !important;
+  color: #111 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+  background: #fff !important;
+  background-color: #fff !important;
+  color: #111 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ... */
+
+/* Ensure both batter and pitcher entry blocks are visually identical */
+.batter-entry.player-stats-entry, .pitcher-entry.player-stats-entry {
+  background: #fff;
+  background-color: #fff;
+  color: #111;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* ... */
+
+.stat-label {
+  color: #111;
+  font-weight: bold;
+  opacity: 1;
+  background: none;
+  text-shadow: none;
+}
+
+.stat-label, .player-stats-entry label, table th {
+  color: #111;
+  font-weight: bold;
+  opacity: 1;
+  background: none;
+  text-shadow: none;
+}
+
+/* ... */
+
+.stat-box {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* ... */
+
+.rank-badge {
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  background: #fff !important;
+}
+
+.rank-gold {
+  background-color: #FFD700;
+  color: #7D6608;
+}
+
+/* ... */
+
+.menu-item a:hover {
+  background: #fff !important;
+  text-decoration: none;
+}
+
+.menu-item i {
+  margin-right: calc(var(--spacing-unit) * 0.25);
+}
+
+/* Baseball-themed elements */
+.baseball-stitches {
+  position: relative;
+}
+
+.baseball-stitches::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--accent-color),
+    var(--accent-color) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stat-display {
+    flex: 1 0 50%;
+  }
+  
+  .trc-navbar {
+    flex-direction: column;
+    padding: calc(var(--spacing-unit) * 0.5);
+  }
+  
+  .navbar-title {
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+  }
+  
+  .navbar-menu {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-display {
+    flex: 1 0 100%;
+  }
+  
+  .player-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .player-number {
+    margin-right: 0;
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-out;
+}
+
+/* Baseball diamond loader */
+.diamond-loader {
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.diamond-loader::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 4px solid var(--primary-color);
+  animation: pulse 1.5s infinite;
+}
+
+.diamond-loader::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+/* ===== TOOLTIPS ===== */
+/* Standard tooltips */
+.trc-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.trc-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 220px;
+  background-color: var(--trc-maroon);
+  color: var(--trc-white);
+  text-align: left;
+  border-radius: 12px;
+  padding: 10px 14px;
+  position: absolute;
+  z-index: 10;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 1em;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  pointer-events: none;
+  white-space: pre-line;
+}
+
+.trc-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* TOOLTIP SYSTEM - Simple, reliable positioning */
+.stat-tooltip {
+  position: relative !important;
+  display: inline-block !important;
+  cursor: help !important;
+}
+
+/* Styling for the lightbulb icon */
+.stat-help-icon {
+  color: #f0ad4e !important; /* Yellow/gold lightbulb */
+  margin-left: 5px !important;
+}
+
+/* The tooltip text */
+.stat-tooltip::after {
+  content: attr(title) !important;
+  visibility: hidden !important;
+  width: 250px !important;
+  background-color: #800000 !important; /* TRC Maroon */
+  color: white !important;
+  text-align: left !important;
+  border-radius: 6px !important;
+  padding: 8px 12px !important;
+  
+  /* Positioning */
+  position: absolute !important;
+  z-index: 9999 !important;
+  left: auto !important; /* Auto instead of 0 */
+  right: auto !important;
+  top: 100% !important;
+  margin-top: 5px !important;
+  transform: translateX(-50%) !important; /* Center the tooltip */
+  
+  /* Appearance */
+  opacity: 0 !important;
+  transition: opacity 0.3s !important;
+  font-size: 0.7em !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+  pointer-events: none !important;
+  white-space: pre-line !important;
+  font-family: Arial, sans-serif !important;
+}
+
+/* Special handling for tooltips that would go off the right edge */
+.stat-tooltip:hover::after {
+  /* Check if tooltip would go off screen and adjust */
+  left: 50% !important;
+  right: auto !important;
+  
+  /* Ensure tooltip stays within viewport */
+  max-width: 250px !important;
+  width: max-content !important;
+  min-width: 150px !important;
+}
+
+/* Specific positioning for tooltips near right edge */
+.stat-tooltip:last-child::after,
+.stat-tooltip:nth-last-child(2)::after,
+.stat-tooltip:nth-last-child(3)::after {
+  left: auto !important;
+  right: 0 !important;
+  transform: none !important;
+}
+
+/* Show the tooltip when hovering */
+.stat-tooltip:hover::after {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.stat-tooltip:hover {
+  z-index: 1000;
+}
+
+/* Hide default browser tooltip */
+.stat-tooltip[title]:hover::before {
+  content: '';
+}
+
+
+/* Badges */
+.trc-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.trc-badge.primary {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.trc-badge.secondary {
+  background-color: var(--secondary-light);
+  color: var(--secondary-dark);
+}
+
+.trc-badge.accent {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Progress bars */
+.trc-progress {
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.trc-progress-bar {
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+/* Baseball field background */
+.baseball-field-bg {
+  background-image: linear-gradient(
+    to bottom,
+    #87CEEB 0%,
+    #87CEEB 60%,
+    #8B4513 60%,
+    #8B4513 100%
+  );
+  position: relative;
+}
+
+.baseball-field-bg::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background-color: white;
+}
+
+/* Team colors */
+.team-colors {
+  display: flex;
+  gap: 5px;
+}
+
+.team-color-swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Advanced Metrics and Baseball Career Lab Styles */
+
+/* Main module styling - using existing color variables */
+.lab-module-title {
+  color: var(--trc-maroon);
+  font-family: 'Freshman', sans-serif;
+  border-bottom: 2px solid var(--trc-maroon);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.lab-module-intro {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.lab-section-header {
+  color: var(--trc-maroon);
+  font-family: 'Freshman', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* Timeline styling - using existing variable colors and box styling */
+.stats-timeline-container {
+  margin: 20px 0;
+  background: var(--trc-light-gray);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.btn-era {
+  flex: 1;
+  background: var(--trc-gray);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  padding: 8px 0;
+  transition: all 0.3s ease;
+}
+
+.btn-era:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-traditional .btn-era:nth-child(1),
+.timeline-sabermetric .btn-era:nth-child(2),
+.timeline-statcast .btn-era:nth-child(3) {
+  background: var(--trc-maroon);
+  color: var(--trc-white);
+  font-weight: bold;
+}
+
+.timeline-era {
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  padding: 15px;
+  background: white;
+}
+
+.era-title {
+  margin-top: 0;
+  color: var(--trc-maroon);
+}
+
+.timeline-stats {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.timeline-stat-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stat-year {
+  background: var(--trc-maroon);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-details {
+  padding: 15px;
+  flex: 1;
+  color: var(--text-color);
+}
+
+.stat-details h4 {
+  margin-top: 0;
+  color: var(--trc-dark-gray);
+}
+
+.stat-connection {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Pro Usage styling - consistent with box styling */
+.pro-stats-usage-container {
+  margin: 20px 0;
+}
+
+.usage-content {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.usage-example, .usage-stats {
+  flex: 1;
+  background: var(--trc-light-gray);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.usage-quote {
+  font-style: italic;
+  border-left: 3px solid var(--trc-maroon);
+  padding-left: 15px;
+  margin: 15px 0;
+  color: var(--text-color);
+}
+
+/* Careers styling - matching existing box and button styles */
+.careers-intro-panel {
+  background: linear-gradient(135deg, var(--trc-maroon), var(--trc-light-maroon));
+  color: white;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+}
+
+.careers-intro-panel h3 {
+  color: white;
+  margin-top: 0;
+  font-family: 'Freshman', sans-serif;
+}
+
+.careers-intro-panel ul {
+  margin-top: 15px;
+}
+
+.explore-options-panel {
+  background: var(--trc-light-gray);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  height: 100%;
+}
+
+.career-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.career-card {
+  background: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.career-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.career-header {
+  background: var(--trc-maroon);
+  color: white;
+  padding: 10px 15px;
+}
+
+.career-header h5 {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Freshman', sans-serif;
+}
+
+.career-category-label {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.career-body {
+  padding: 15px;
+  color: var(--text-color);
+}
+
+.subject-matches {
+  margin-top: 10px;
+}
+
+.matched-subject {
+  color: var(--trc-maroon);
+  font-weight: bold;
+}
+
+.career-footer {
+  padding: 10px 15px;
+  background: var(--trc-light-gray);
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+
+.careers-suggestion {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Achievement system styling - consistent with existing button styling */
+.achievement-banner {
+  background: linear-gradient(135deg, var(--trc-maroon), var(--trc-light-maroon));
+  color: white;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.achievement-card {
+  border-radius: var(--border-radius);
+  padding: 15px;
+  display: flex;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.achievement-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card.earned {
+  border-left: 4px solid #28a745;
+}
+
+.achievement-card.unearned {
+  border-left: 4px solid var(--trc-gray);
+  opacity: 0.8;
+}
+
+/* Make sure these media query adjustments match existing patterns */
+@media (max-width: 768px) {
+  .usage-content {
+    flex-direction: column;
+  }
+  
+  .career-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Animation to match existing animation styles */
+.career-card, .achievement-card, .timeline-stat-card {
+  animation: fadeIn 0.5s ease-in-out;
+}

@@ -1,0 +1,32 @@
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Shiny token
+rsconnect/
+.httr-oauth
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor specific
+.vscode/
+.idea/
+
+# Local configuration
+config.local.R
+
+# Database files
+*.accdb
+*.mdb
+*.ldb
+*.sqlite
+*.db
+
+# Temporary files
+tmp/
+temp/

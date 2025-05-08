@@ -1,0 +1,8 @@
+shiny
+shinydashboard
+DT
+dplyr
+ggplot2
+htmltools
+jsonlite
+htmlwidgets

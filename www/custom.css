@@ -1,0 +1,45 @@
+/* Custom CSS to improve Game Log header visibility */
+.batting-gamelog-table thead tr th,
+.pitching-gamelog-table thead tr th {
+  color: white !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Styles for disabled menu items */
+.disabled-menu-item {
+  opacity: 0.6;
+  position: relative;
+  font-style: italic;
+}
+
+.disabled-menu-item:hover {
+  background-color: transparent !important;
+}
+
+.menu-tooltip {
+  display: none;
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.disabled-menu-item:hover .menu-tooltip {
+  display: block;
+}
+
+/* Style for wrapped menu items */
+.treeview a {
+  white-space: normal !important;
+  height: auto !important;
+  line-height: 1.3 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}

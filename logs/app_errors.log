@@ -1,0 +1,2173 @@
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Warning: Error in round: non-numeric argument to mathematical function
+  113: h
+  112: .handleSimpleError
+  111: dots_list
+  110: h3
+  109: dots_list
+  108: div
+  107: dots_list
+  106: div
+  105: dots_list
+  104: div
+  103: dots_list
+  102: div
+  101: generate_team_snapshot [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#464]
+  100: eval [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#892]
+   99: eval
+   98: withProgress
+   97: renderUI [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#890]
+   96: func
+   95: force
+   94: withVisible
+   93: withCallingHandlers
+   92: domain$wrapSync
+   91: promises::with_promise_domain
+   90: captureStackTraces
+   89: doTryCatch
+   88: tryCatchOne
+   87: tryCatchList
+   86: tryCatch
+   85: do
+   84: hybrid_chain
+   83: renderFunc
+   82: output$team_snapshot_simple-snapshot_output
+   81: ..stacktraceon..
+   80: orig
+   79: func
+   78: withCallingHandlers
+   77: domain$wrapSync
+   76: promises::with_promise_domain
+   75: captureStackTraces
+   74: withCallingHandlers
+   73: shinyCallingHandlers
+   72: force
+   71: domain$wrapSync
+   70: promises::with_promise_domain
+   69: private$withCurrentOutput
+   68: force
+   67: withVisible
+   66: withCallingHandlers
+   65: domain$wrapSync
+   64: promises::with_promise_domain
+   63: captureStackTraces
+   62: doTryCatch
+   61: tryCatchOne
+   60: tryCatchList
+   59: tryCatch
+   58: do
+   57: hybrid_chain
+   56: force
+   55: withVisible
+   54: withCallingHandlers
+   53: domain$wrapSync
+   52: promises::with_promise_domain
+   51: captureStackTraces
+   50: doTryCatch
+   49: tryCatchOne
+   48: tryCatchList
+   47: tryCatch
+   46: do
+   45: hybrid_chain
+   44: observe
+   43: <observer:output$team_snapshot_simple-snapshot_output>
+   42: contextFunc
+   41: env$runWith
+   40: force
+   39: domain$wrapSync
+   38: promises::with_promise_domain
+   37: withReactiveDomain
+   36: domain$wrapSync
+   35: promises::with_promise_domain
+   34: ctx$run
+   33: run
+   32: withCallingHandlers
+   31: domain$wrapSync
+   30: promises::with_promise_domain
+   29: captureStackTraces
+   28: withCallingHandlers
+   27: shinyCallingHandlers
+   26: force
+   25: withVisible
+   24: withCallingHandlers
+   23: domain$wrapSync
+   22: promises::with_promise_domain
+   21: captureStackTraces
+   20: doTryCatch
+   19: tryCatchOne
+   18: tryCatchList
+   17: tryCatch
+   16: do
+   15: hybrid_chain
+   14: flushCallback
+   13: FUN
+   12: lapply
+   11: ctx$executeFlushCallbacks
+   10: .getReactiveEnvironment()$flush
+    9: flushReact
+    8: serviceApp
+    7: ..stacktracefloor..
+    6: withCallingHandlers
+    5: domain$wrapSync
+    4: promises::with_promise_domain
+    3: captureStackTraces
+    2: ..stacktraceoff..
+    1: runApp
+Warning: Error in round: non-numeric argument to mathematical function
+  113: h
+  112: .handleSimpleError
+  111: dots_list
+  110: h3
+  109: dots_list
+  108: div
+  107: dots_list
+  106: div
+  105: dots_list
+  104: div
+  103: dots_list
+  102: div
+  101: generate_team_snapshot [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#464]
+  100: eval [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#892]
+   99: eval
+   98: withProgress
+   97: renderUI [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#890]
+   96: func
+   95: force
+   94: withVisible
+   93: withCallingHandlers
+   92: domain$wrapSync
+   91: promises::with_promise_domain
+   90: captureStackTraces
+   89: doTryCatch
+   88: tryCatchOne
+   87: tryCatchList
+   86: tryCatch
+   85: do
+   84: hybrid_chain
+   83: renderFunc
+   82: output$team_snapshot_simple-snapshot_output
+   81: ..stacktraceon..
+   80: orig
+   79: func
+   78: withCallingHandlers
+   77: domain$wrapSync
+   76: promises::with_promise_domain
+   75: captureStackTraces
+   74: withCallingHandlers
+   73: shinyCallingHandlers
+   72: force
+   71: domain$wrapSync
+   70: promises::with_promise_domain
+   69: private$withCurrentOutput
+   68: force
+   67: withVisible
+   66: withCallingHandlers
+   65: domain$wrapSync
+   64: promises::with_promise_domain
+   63: captureStackTraces
+   62: doTryCatch
+   61: tryCatchOne
+   60: tryCatchList
+   59: tryCatch
+   58: do
+   57: hybrid_chain
+   56: force
+   55: withVisible
+   54: withCallingHandlers
+   53: domain$wrapSync
+   52: promises::with_promise_domain
+   51: captureStackTraces
+   50: doTryCatch
+   49: tryCatchOne
+   48: tryCatchList
+   47: tryCatch
+   46: do
+   45: hybrid_chain
+   44: observe
+   43: <observer:output$team_snapshot_simple-snapshot_output>
+   42: contextFunc
+   41: env$runWith
+   40: force
+   39: domain$wrapSync
+   38: promises::with_promise_domain
+   37: withReactiveDomain
+   36: domain$wrapSync
+   35: promises::with_promise_domain
+   34: ctx$run
+   33: run
+   32: withCallingHandlers
+   31: domain$wrapSync
+   30: promises::with_promise_domain
+   29: captureStackTraces
+   28: withCallingHandlers
+   27: shinyCallingHandlers
+   26: force
+   25: withVisible
+   24: withCallingHandlers
+   23: domain$wrapSync
+   22: promises::with_promise_domain
+   21: captureStackTraces
+   20: doTryCatch
+   19: tryCatchOne
+   18: tryCatchList
+   17: tryCatch
+   16: do
+   15: hybrid_chain
+   14: flushCallback
+   13: FUN
+   12: lapply
+   11: ctx$executeFlushCallbacks
+   10: .getReactiveEnvironment()$flush
+    9: flushReact
+    8: serviceApp
+    7: ..stacktracefloor..
+    6: withCallingHandlers
+    5: domain$wrapSync
+    4: promises::with_promise_domain
+    3: captureStackTraces
+    2: ..stacktraceoff..
+    1: runApp
+
+
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Warning: Error in round: non-numeric argument to mathematical function
+  113: h
+  112: .handleSimpleError
+  111: dots_list
+  110: h3
+  109: dots_list
+  108: div
+  107: dots_list
+  106: div
+  105: dots_list
+  104: div
+  103: dots_list
+  102: div
+  101: generate_team_snapshot [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#464]
+  100: eval [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#892]
+   99: eval
+   98: withProgress
+   97: renderUI [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#890]
+   96: func
+   95: force
+   94: withVisible
+   93: withCallingHandlers
+   92: domain$wrapSync
+   91: promises::with_promise_domain
+   90: captureStackTraces
+   89: doTryCatch
+   88: tryCatchOne
+   87: tryCatchList
+   86: tryCatch
+   85: do
+   84: hybrid_chain
+   83: renderFunc
+   82: output$team_snapshot_simple-snapshot_output
+   81: ..stacktraceon..
+   80: orig
+   79: func
+   78: withCallingHandlers
+   77: domain$wrapSync
+   76: promises::with_promise_domain
+   75: captureStackTraces
+   74: withCallingHandlers
+   73: shinyCallingHandlers
+   72: force
+   71: domain$wrapSync
+   70: promises::with_promise_domain
+   69: private$withCurrentOutput
+   68: force
+   67: withVisible
+   66: withCallingHandlers
+   65: domain$wrapSync
+   64: promises::with_promise_domain
+   63: captureStackTraces
+   62: doTryCatch
+   61: tryCatchOne
+   60: tryCatchList
+   59: tryCatch
+   58: do
+   57: hybrid_chain
+   56: force
+   55: withVisible
+   54: withCallingHandlers
+   53: domain$wrapSync
+   52: promises::with_promise_domain
+   51: captureStackTraces
+   50: doTryCatch
+   49: tryCatchOne
+   48: tryCatchList
+   47: tryCatch
+   46: do
+   45: hybrid_chain
+   44: observe
+   43: <observer:output$team_snapshot_simple-snapshot_output>
+   42: contextFunc
+   41: env$runWith
+   40: force
+   39: domain$wrapSync
+   38: promises::with_promise_domain
+   37: withReactiveDomain
+   36: domain$wrapSync
+   35: promises::with_promise_domain
+   34: ctx$run
+   33: run
+   32: withCallingHandlers
+   31: domain$wrapSync
+   30: promises::with_promise_domain
+   29: captureStackTraces
+   28: withCallingHandlers
+   27: shinyCallingHandlers
+   26: force
+   25: withVisible
+   24: withCallingHandlers
+   23: domain$wrapSync
+   22: promises::with_promise_domain
+   21: captureStackTraces
+   20: doTryCatch
+   19: tryCatchOne
+   18: tryCatchList
+   17: tryCatch
+   16: do
+   15: hybrid_chain
+   14: flushCallback
+   13: FUN
+   12: lapply
+   11: ctx$executeFlushCallbacks
+   10: .getReactiveEnvironment()$flush
+    9: flushReact
+    8: serviceApp
+    7: ..stacktracefloor..
+    6: withCallingHandlers
+    5: domain$wrapSync
+    4: promises::with_promise_domain
+    3: captureStackTraces
+    2: ..stacktraceoff..
+    1: runApp
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+
+
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Warning: Error in round: non-numeric argument to mathematical function
+  113: h
+  112: .handleSimpleError
+  111: dots_list
+  110: h3
+  109: dots_list
+  108: div
+  107: dots_list
+  106: div
+  105: dots_list
+  104: div
+  103: dots_list
+  102: div
+  101: generate_team_snapshot [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#464]
+  100: eval [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#892]
+   99: eval
+   98: withProgress
+   97: renderUI [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#890]
+   96: func
+   95: force
+   94: withVisible
+   93: withCallingHandlers
+   92: domain$wrapSync
+   91: promises::with_promise_domain
+   90: captureStackTraces
+   89: doTryCatch
+   88: tryCatchOne
+   87: tryCatchList
+   86: tryCatch
+   85: do
+   84: hybrid_chain
+   83: renderFunc
+   82: output$team_snapshot_simple-snapshot_output
+   81: ..stacktraceon..
+   80: orig
+   79: func
+   78: withCallingHandlers
+   77: domain$wrapSync
+   76: promises::with_promise_domain
+   75: captureStackTraces
+   74: withCallingHandlers
+   73: shinyCallingHandlers
+   72: force
+   71: domain$wrapSync
+   70: promises::with_promise_domain
+   69: private$withCurrentOutput
+   68: force
+   67: withVisible
+   66: withCallingHandlers
+   65: domain$wrapSync
+   64: promises::with_promise_domain
+   63: captureStackTraces
+   62: doTryCatch
+   61: tryCatchOne
+   60: tryCatchList
+   59: tryCatch
+   58: do
+   57: hybrid_chain
+   56: force
+   55: withVisible
+   54: withCallingHandlers
+   53: domain$wrapSync
+   52: promises::with_promise_domain
+   51: captureStackTraces
+   50: doTryCatch
+   49: tryCatchOne
+   48: tryCatchList
+   47: tryCatch
+   46: do
+   45: hybrid_chain
+   44: observe
+   43: <observer:output$team_snapshot_simple-snapshot_output>
+   42: contextFunc
+   41: env$runWith
+   40: force
+   39: domain$wrapSync
+   38: promises::with_promise_domain
+   37: withReactiveDomain
+   36: domain$wrapSync
+   35: promises::with_promise_domain
+   34: ctx$run
+   33: run
+   32: withCallingHandlers
+   31: domain$wrapSync
+   30: promises::with_promise_domain
+   29: captureStackTraces
+   28: withCallingHandlers
+   27: shinyCallingHandlers
+   26: force
+   25: withVisible
+   24: withCallingHandlers
+   23: domain$wrapSync
+   22: promises::with_promise_domain
+   21: captureStackTraces
+   20: doTryCatch
+   19: tryCatchOne
+   18: tryCatchList
+   17: tryCatch
+   16: do
+   15: hybrid_chain
+   14: flushCallback
+   13: FUN
+   12: lapply
+   11: ctx$executeFlushCallbacks
+   10: .getReactiveEnvironment()$flush
+    9: flushReact
+    8: serviceApp
+    7: ..stacktracefloor..
+    6: withCallingHandlers
+    5: domain$wrapSync
+    4: promises::with_promise_domain
+    3: captureStackTraces
+    2: ..stacktraceoff..
+    1: runApp
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Warning: Error in round: non-numeric argument to mathematical function
+  113: h
+  112: .handleSimpleError
+  111: dots_list
+  110: h3
+  109: dots_list
+  108: div
+  107: dots_list
+  106: div
+  105: dots_list
+  104: div
+  103: dots_list
+  102: div
+  101: generate_team_snapshot [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#508]
+  100: eval [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#936]
+   99: eval
+   98: withProgress
+   97: renderUI [F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR\R\team_snapshot_simple.R#934]
+   96: func
+   95: force
+   94: withVisible
+   93: withCallingHandlers
+   92: domain$wrapSync
+   91: promises::with_promise_domain
+   90: captureStackTraces
+   89: doTryCatch
+   88: tryCatchOne
+   87: tryCatchList
+   86: tryCatch
+   85: do
+   84: hybrid_chain
+   83: renderFunc
+   82: output$team_snapshot_simple-snapshot_output
+   81: ..stacktraceon..
+   80: orig
+   79: func
+   78: withCallingHandlers
+   77: domain$wrapSync
+   76: promises::with_promise_domain
+   75: captureStackTraces
+   74: withCallingHandlers
+   73: shinyCallingHandlers
+   72: force
+   71: domain$wrapSync
+   70: promises::with_promise_domain
+   69: private$withCurrentOutput
+   68: force
+   67: withVisible
+   66: withCallingHandlers
+   65: domain$wrapSync
+   64: promises::with_promise_domain
+   63: captureStackTraces
+   62: doTryCatch
+   61: tryCatchOne
+   60: tryCatchList
+   59: tryCatch
+   58: do
+   57: hybrid_chain
+   56: force
+   55: withVisible
+   54: withCallingHandlers
+   53: domain$wrapSync
+   52: promises::with_promise_domain
+   51: captureStackTraces
+   50: doTryCatch
+   49: tryCatchOne
+   48: tryCatchList
+   47: tryCatch
+   46: do
+   45: hybrid_chain
+   44: observe
+   43: <observer:output$team_snapshot_simple-snapshot_output>
+   42: contextFunc
+   41: env$runWith
+   40: force
+   39: domain$wrapSync
+   38: promises::with_promise_domain
+   37: withReactiveDomain
+   36: domain$wrapSync
+   35: promises::with_promise_domain
+   34: ctx$run
+   33: run
+   32: withCallingHandlers
+   31: domain$wrapSync
+   30: promises::with_promise_domain
+   29: captureStackTraces
+   28: withCallingHandlers
+   27: shinyCallingHandlers
+   26: force
+   25: withVisible
+   24: withCallingHandlers
+   23: domain$wrapSync
+   22: promises::with_promise_domain
+   21: captureStackTraces
+   20: doTryCatch
+   19: tryCatchOne
+   18: tryCatchList
+   17: tryCatch
+   16: do
+   15: hybrid_chain
+   14: flushCallback
+   13: FUN
+   12: lapply
+   11: ctx$executeFlushCallbacks
+   10: .getReactiveEnvironment()$flush
+    9: flushReact
+    8: serviceApp
+    7: ..stacktracefloor..
+    6: withCallingHandlers
+    5: domain$wrapSync
+    4: promises::with_promise_domain
+    3: captureStackTraces
+    2: ..stacktraceoff..
+    1: runApp
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+
+
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+Successfully loaded package: shiny
+Successfully loaded package: shinydashboard
+Successfully loaded package: shinyjs
+Successfully loaded package: shinyWidgets
+Successfully loaded package: shinycssloaders
+Successfully loaded package: shinyalert
+Successfully loaded package: shinybusy
+Successfully loaded package: shinyvalidate
+Successfully loaded package: shinytoastr
+Successfully loaded package: shinyFeedback
+Successfully loaded package: shinythemes
+Successfully loaded package: shinyFiles
+Successfully loaded package: shinyAce
+Successfully loaded package: DT
+Successfully loaded package: dplyr
+Successfully loaded package: tidyr
+Successfully loaded package: later
+Successfully sourced: R/object_engine.R
+Successfully sourced: R/stats.R
+Successfully sourced: R/advanced_metrics_module.R
+Successfully sourced: R/league_standings.R
+Successfully sourced: R/league_leaders_module_NEW.R
+Successfully sourced: R/team_snapshot_simple.R
+Successfully sourced: R/player_card_module.R
+Successfully loaded RDS file: tblGames.rds
+Successfully loaded RDS file: tblTeams.rds
+Successfully loaded RDS file: tblPlayers.rds
+Successfully loaded RDS file: tblBattingStatsFlat.rds
+Successfully loaded RDS file: tblPitchingStatsFlat.rds
+
+Listening on http://127.0.0.1:3600
+Starting creation of master tables
+Processing 100 players and 8 teams
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting creation of master tables
+Processing 100 players and 8 teams
+ERROR in generate_player_card:character string is not in a standard unambiguous format
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Error in parse(file, keep.source = FALSE, srcfile = src, encoding = enc) : 
+  F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R:328:1: unexpected ')'
+327:   ) # Close dashboardBody
+328: )
+     ^
+Warning in readLines(path) :
+  incomplete final line found on 'F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R'
+Possible missing comma at:
+24:for (pkg in required_packages) {
+            ^
+Possible missing comma at:
+24:for (pkg in required_packages) {
+               ^
+Possible extra comma at:
+240:        ),
+             ^
+Possible unmatched ')' at:
+328:)  
+    ^
+Possible missing comma at:
+693:            sapply(valid_games$AwayTeamID, function(id) teams$TeamName[teams$TeamID == id]),
+                                                            ^
+Possible missing comma at:
+695:            paste(sapply(valid_games$HomeTeamID, function(id) teams$TeamName[teams$TeamID == id]), collapse = ", ")
+                                                                  ^
+Possible missing comma at:
+847:    for (i in seq_along(home_batting_order())) {
+               ^
+Possible missing comma at:
+847:    for (i in seq_along(home_batting_order())) {
+                  ^
+Possible missing comma at:
+861:    for (i in seq_along(away_batting_order())) {
+               ^
+Possible missing comma at:
+861:    for (i in seq_along(away_batting_order())) {
+                  ^
+Possible missing comma at:
+900:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+900:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+914:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+914:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+932:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+932:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+946:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+946:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+960:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+960:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+974:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+974:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+995:        for (i in seq_along(away_batters())) {
+                   ^
+Possible missing comma at:
+995:        for (i in seq_along(away_batters())) {
+                      ^
+Possible missing comma at:
+1009:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1009:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1027:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1027:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1041:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1041:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1055:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1055:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1069:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1069:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1153:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1153:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1167:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1167:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1181:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1181:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1195:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1195:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1209:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1209:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1223:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1223:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1244:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1244:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1258:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1258:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1272:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1272:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1286:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1286:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1300:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1300:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1314:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1314:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1947:    for (i in seq_along(home_batters())) {
+                ^
+Possible missing comma at:
+1947:    for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+1954:    for (i in seq_along(away_batters())) {
+                ^
+Possible missing comma at:
+1954:    for (i in seq_along(away_batters())) {
+                   ^
+Possible missing comma at:
+1989:        for (i in seq_along(home_batters())) {
+                    ^
+Possible missing comma at:
+1989:        for (i in seq_along(home_batters())) {
+                       ^
+Possible missing comma at:
+2018:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2018:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2026:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+2026:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+2055:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2055:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2066:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+2066:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+2091:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2091:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2099:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+2099:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+2124:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2124:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2786:          for (i in 1:nrow(game_details$batting)) {
+                      ^
+Possible missing comma at:
+2786:          for (i in 1:nrow(game_details$batting)) {
+                         ^
+Possible missing comma at:
+2821:          for (i in 1:nrow(game_details$pitching)) {
+                      ^
+Possible missing comma at:
+2821:          for (i in 1:nrow(game_details$pitching)) {
+                         ^
+Possible missing comma at:
+2951:        batting$AVG <- sapply(1:nrow(batting), function(i) safe_batting_avg(batting$H[i], batting$AB[i]))
+                                                                ^
+Possible missing comma at:
+2958:        batting$OBP <- sapply(1:nrow(batting), function(i) safe_obp(batting$H[i], batting$BB[i], batting$HBP[i], batting$AB[i], batting$SF[i]))
+                                                                ^
+Possible missing comma at:
+3008:        pitching$ERA <- sapply(1:nrow(pitching), function(i) safe_era(pitching$ER[i], pitching$IP[i]))
+                                                                  ^
+Possible missing comma at:
+3016:        pitching$WHIP <- sapply(1:nrow(pitching), function(i) safe_whip(pitching$BB[i], pitching$H[i], pitching$HBP[i], pitching$IP[i]))
+                                                                   ^
+Possible missing comma at:
+3024:        pitching$K_per_9 <- sapply(1:nrow(pitching), function(i) safe_per_nine(pitching$K[i], pitching$IP[i]))
+                                                                      ^
+Error in sourceUTF8(fullpath, envir = new.env(parent = sharedEnv)) : 
+  Error sourcing F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R
+Error in parse(file, keep.source = FALSE, srcfile = src, encoding = enc) : 
+  F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R:328:1: unexpected ')'
+327:   ) # Close dashboardBody
+328: )
+     ^
+Warning in readLines(path) :
+  incomplete final line found on 'F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R'
+Possible missing comma at:
+24:for (pkg in required_packages) {
+            ^
+Possible missing comma at:
+24:for (pkg in required_packages) {
+               ^
+Possible extra comma at:
+240:        ),
+             ^
+Possible unmatched ')' at:
+328:)  
+    ^
+Possible missing comma at:
+693:            sapply(valid_games$AwayTeamID, function(id) teams$TeamName[teams$TeamID == id]),
+                                                            ^
+Possible missing comma at:
+695:            paste(sapply(valid_games$HomeTeamID, function(id) teams$TeamName[teams$TeamID == id]), collapse = ", ")
+                                                                  ^
+Possible missing comma at:
+847:    for (i in seq_along(home_batting_order())) {
+               ^
+Possible missing comma at:
+847:    for (i in seq_along(home_batting_order())) {
+                  ^
+Possible missing comma at:
+861:    for (i in seq_along(away_batting_order())) {
+               ^
+Possible missing comma at:
+861:    for (i in seq_along(away_batting_order())) {
+                  ^
+Possible missing comma at:
+900:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+900:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+914:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+914:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+932:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+932:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+946:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+946:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+960:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+960:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+974:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+974:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+995:        for (i in seq_along(away_batters())) {
+                   ^
+Possible missing comma at:
+995:        for (i in seq_along(away_batters())) {
+                      ^
+Possible missing comma at:
+1009:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1009:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1027:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1027:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1041:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1041:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1055:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1055:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1069:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1069:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1153:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1153:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1167:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1167:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1181:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1181:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1195:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1195:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1209:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1209:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1223:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1223:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1244:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1244:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1258:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1258:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1272:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1272:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1286:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1286:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1300:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1300:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1314:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1314:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1947:    for (i in seq_along(home_batters())) {
+                ^
+Possible missing comma at:
+1947:    for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+1954:    for (i in seq_along(away_batters())) {
+                ^
+Possible missing comma at:
+1954:    for (i in seq_along(away_batters())) {
+                   ^
+Possible missing comma at:
+1989:        for (i in seq_along(home_batters())) {
+                    ^
+Possible missing comma at:
+1989:        for (i in seq_along(home_batters())) {
+                       ^
+Possible missing comma at:
+2018:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2018:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2026:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+2026:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+2055:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2055:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2066:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+2066:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+2091:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2091:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2099:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+2099:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+2124:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2124:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2786:          for (i in 1:nrow(game_details$batting)) {
+                      ^
+Possible missing comma at:
+2786:          for (i in 1:nrow(game_details$batting)) {
+                         ^
+Possible missing comma at:
+2821:          for (i in 1:nrow(game_details$pitching)) {
+                      ^
+Possible missing comma at:
+2821:          for (i in 1:nrow(game_details$pitching)) {
+                         ^
+Possible missing comma at:
+2951:        batting$AVG <- sapply(1:nrow(batting), function(i) safe_batting_avg(batting$H[i], batting$AB[i]))
+                                                                ^
+Possible missing comma at:
+2958:        batting$OBP <- sapply(1:nrow(batting), function(i) safe_obp(batting$H[i], batting$BB[i], batting$HBP[i], batting$AB[i], batting$SF[i]))
+                                                                ^
+Possible missing comma at:
+3008:        pitching$ERA <- sapply(1:nrow(pitching), function(i) safe_era(pitching$ER[i], pitching$IP[i]))
+                                                                  ^
+Possible missing comma at:
+3016:        pitching$WHIP <- sapply(1:nrow(pitching), function(i) safe_whip(pitching$BB[i], pitching$H[i], pitching$HBP[i], pitching$IP[i]))
+                                                                   ^
+Possible missing comma at:
+3024:        pitching$K_per_9 <- sapply(1:nrow(pitching), function(i) safe_per_nine(pitching$K[i], pitching$IP[i]))
+                                                                      ^
+Error in sourceUTF8(fullpath, envir = new.env(parent = sharedEnv)) : 
+  Error sourcing F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R
+Error in parse(file, keep.source = FALSE, srcfile = src, encoding = enc) : 
+  F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R:328:1: unexpected ')'
+327:   ) # Close dashboardBody
+328: )
+     ^
+Warning in readLines(path) :
+  incomplete final line found on 'F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R'
+Possible missing comma at:
+24:for (pkg in required_packages) {
+            ^
+Possible missing comma at:
+24:for (pkg in required_packages) {
+               ^
+Possible extra comma at:
+240:        ),
+             ^
+Possible unmatched ')' at:
+328:)  
+    ^
+Possible missing comma at:
+693:            sapply(valid_games$AwayTeamID, function(id) teams$TeamName[teams$TeamID == id]),
+                                                            ^
+Possible missing comma at:
+695:            paste(sapply(valid_games$HomeTeamID, function(id) teams$TeamName[teams$TeamID == id]), collapse = ", ")
+                                                                  ^
+Possible missing comma at:
+847:    for (i in seq_along(home_batting_order())) {
+               ^
+Possible missing comma at:
+847:    for (i in seq_along(home_batting_order())) {
+                  ^
+Possible missing comma at:
+861:    for (i in seq_along(away_batting_order())) {
+               ^
+Possible missing comma at:
+861:    for (i in seq_along(away_batting_order())) {
+                  ^
+Possible missing comma at:
+900:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+900:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+914:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+914:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+932:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+932:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+946:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+946:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+960:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+960:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+974:        for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+974:        for (i in seq_along(home_batters())) {
+                      ^
+Possible missing comma at:
+995:        for (i in seq_along(away_batters())) {
+                   ^
+Possible missing comma at:
+995:        for (i in seq_along(away_batters())) {
+                      ^
+Possible missing comma at:
+1009:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1009:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1027:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1027:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1041:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1041:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1055:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1055:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1069:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+1069:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+1153:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1153:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1167:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1167:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1181:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1181:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1195:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1195:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1209:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1209:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1223:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+1223:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+1244:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1244:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1258:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1258:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1272:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1272:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1286:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1286:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1300:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1300:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1314:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+1314:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+1947:    for (i in seq_along(home_batters())) {
+                ^
+Possible missing comma at:
+1947:    for (i in seq_along(home_batters())) {
+                   ^
+Possible missing comma at:
+1954:    for (i in seq_along(away_batters())) {
+                ^
+Possible missing comma at:
+1954:    for (i in seq_along(away_batters())) {
+                   ^
+Possible missing comma at:
+1989:        for (i in seq_along(home_batters())) {
+                    ^
+Possible missing comma at:
+1989:        for (i in seq_along(home_batters())) {
+                       ^
+Possible missing comma at:
+2018:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2018:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2026:        for (i in seq_along(away_batters())) {
+                    ^
+Possible missing comma at:
+2026:        for (i in seq_along(away_batters())) {
+                       ^
+Possible missing comma at:
+2055:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2055:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2066:        for (i in seq_along(home_pitchers())) {
+                    ^
+Possible missing comma at:
+2066:        for (i in seq_along(home_pitchers())) {
+                       ^
+Possible missing comma at:
+2091:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2091:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2099:        for (i in seq_along(away_pitchers())) {
+                    ^
+Possible missing comma at:
+2099:        for (i in seq_along(away_pitchers())) {
+                       ^
+Possible missing comma at:
+2124:              for (col in missing_cols) new_stat[[col]] <- NA
+                            ^
+Possible missing comma at:
+2124:              for (col in missing_cols) new_stat[[col]] <- NA
+                               ^
+Possible missing comma at:
+2786:          for (i in 1:nrow(game_details$batting)) {
+                      ^
+Possible missing comma at:
+2786:          for (i in 1:nrow(game_details$batting)) {
+                         ^
+Possible missing comma at:
+2821:          for (i in 1:nrow(game_details$pitching)) {
+                      ^
+Possible missing comma at:
+2821:          for (i in 1:nrow(game_details$pitching)) {
+                         ^
+Possible missing comma at:
+2951:        batting$AVG <- sapply(1:nrow(batting), function(i) safe_batting_avg(batting$H[i], batting$AB[i]))
+                                                                ^
+Possible missing comma at:
+2958:        batting$OBP <- sapply(1:nrow(batting), function(i) safe_obp(batting$H[i], batting$BB[i], batting$HBP[i], batting$AB[i], batting$SF[i]))
+                                                                ^
+Possible missing comma at:
+3008:        pitching$ERA <- sapply(1:nrow(pitching), function(i) safe_era(pitching$ER[i], pitching$IP[i]))
+                                                                  ^
+Possible missing comma at:
+3016:        pitching$WHIP <- sapply(1:nrow(pitching), function(i) safe_whip(pitching$BB[i], pitching$H[i], pitching$HBP[i], pitching$IP[i]))
+                                                                   ^
+Possible missing comma at:
+3024:        pitching$K_per_9 <- sapply(1:nrow(pitching), function(i) safe_per_nine(pitching$K[i], pitching$IP[i]))
+                                                                      ^
+Error in sourceUTF8(fullpath, envir = new.env(parent = sharedEnv)) : 
+  Error sourcing F:\Users\dobbs\OneDrive\Documents\Git Clone\TRCStatR/app.R
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Error in `rsconnect::setAccountInfo()`:
+! `token` must be a single string, not absent.
+Run `rlang::last_trace()` to see where the error occurred.
+── Preparing for deployment ──────────────────────────────────────────────────────────────
+✔ Re-deploying "TRCStatR" using "server: shinyapps.io / username: deebo415"
+ℹ Looking up application with id "14672665"...
+✔ Found application <https://deebo415.shinyapps.io/TRCStatR/>
+ℹ Bundling 73 files: '.RData', 'app.R', 'batting.csv', 'divisions.csv', 'docs/ADVANCED_METRICS.md', 'docs/DEVELOPER_GUIDE.md', 'docs/ERROR_HANDLING.md', 'docs/USER_GUIDE.md', 'game_entry_autosave.rds', 'games.csv', 'logs/app_errors.log', 'pitching.csv', 'players.csv', 'R/advanced_metrics_module.R', 'R/advanced_metrics_module_imports.R', 'R/autosave_utils.R', 'R/data_loader.R', 'R/dependencies.R', …, 'www/tiger_logo.png', and 'www/tigers.png'
+ℹ Capturing R dependencies
+✔ Found 102 dependencies
+✔ Created 3,191,100b bundle
+ℹ Uploading bundle...
+✔ Uploaded bundle with id 10229932
+── Deploying to server ───────────────────────────────────────────────────────────────────
+── Deployment complete ───────────────────────────────────────────────────────────────────
+✔ Successfully deployed to <https://deebo415.shinyapps.io/TRCStatR/>
+── Preparing for deployment ──────────────────────────────────────────────────────────────
+✔ Re-deploying "TRCStatR" using "server: shinyapps.io / username: deebo415"
+ℹ Looking up application with id "14672665"...
+✔ Found application <https://deebo415.shinyapps.io/TRCStatR/>
+ℹ Bundling 73 files: '.RData', 'app.R', 'batting.csv', 'divisions.csv', 'docs/ADVANCED_METRICS.md', 'docs/DEVELOPER_GUIDE.md', 'docs/ERROR_HANDLING.md', 'docs/USER_GUIDE.md', 'game_entry_autosave.rds', 'games.csv', 'logs/app_errors.log', 'pitching.csv', 'players.csv', 'R/advanced_metrics_module.R', 'R/advanced_metrics_module_imports.R', 'R/autosave_utils.R', 'R/data_loader.R', 'R/dependencies.R', …, 'www/tiger_logo.png', and 'www/tigers.png'
+ℹ Capturing R dependencies
+✔ Found 102 dependencies
+✔ Created 3,191,505b bundle
+ℹ Uploading bundle...
+✔ Uploaded bundle with id 10229980
+── Deploying to server ───────────────────────────────────────────────────────────────────
+── Deployment complete ───────────────────────────────────────────────────────────────────
+✔ Successfully deployed to <https://deebo415.shinyapps.io/TRCStatR/>
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+
+
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+── Preparing for deployment ──────────────────────────────────────────────────────────────
+✔ Re-deploying "TRCStatR" using "server: shinyapps.io / username: deebo415"
+ℹ Looking up application with id "14672665"...
+✔ Found application <https://deebo415.shinyapps.io/TRCStatR/>
+ℹ Bundling 73 files: '.RData', 'app.R', 'batting.csv', 'divisions.csv', 'docs/ADVANCED_METRICS.md', 'docs/DEVELOPER_GUIDE.md', 'docs/ERROR_HANDLING.md', 'docs/USER_GUIDE.md', 'game_entry_autosave.rds', 'games.csv', 'logs/app_errors.log', 'pitching.csv', 'players.csv', 'R/advanced_metrics_module.R', 'R/advanced_metrics_module_imports.R', 'R/autosave_utils.R', 'R/data_loader.R', 'R/dependencies.R', …, 'www/tiger_logo.png', and 'www/tigers.png'
+ℹ Capturing R dependencies
+✔ Found 102 dependencies
+✔ Created 3,189,915b bundle
+ℹ Uploading bundle...
+✔ Uploaded bundle with id 10230083
+── Deploying to server ───────────────────────────────────────────────────────────────────
+── Deployment complete ───────────────────────────────────────────────────────────────────
+✔ Successfully deployed to <https://deebo415.shinyapps.io/TRCStatR/>
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+
+
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Error calculating standings: arguments imply differing number of rows: 8, 0
+Call:data.frame(TeamID = master_standings$TeamID, TeamName = master_standings$Team,     Wins = master_standings$W, Losses = master_standings$L, Ties = master_standings$T,     RunsScored = master_standings$RS, RunsAgainst = master_standings$RA,     RunDifferential = master_standings$RD, GamesPlayed = master_standings$W +         master_standings$L + master_standings$T, WinningPct = master_standings$PCT,     PowerRank = master_standings$PowerRank, stringsAsFactors = FALSE)
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Error calculating standings: arguments imply differing number of rows: 8, 0
+Call:data.frame(TeamID = master_standings$TeamID, TeamName = master_standings$Team,     Wins = master_standings$W, Losses = master_standings$L, Ties = master_standings$T,     RunsScored = master_standings$RS, RunsAgainst = master_standings$RA,     RunDifferential = master_standings$RD, GamesPlayed = master_standings$W +         master_standings$L + master_standings$T, WinningPct = master_standings$PCT,     PowerRank = master_standings$PowerRank, stringsAsFactors = FALSE)
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting to calculate power rankings...
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting to calculate power rankings...
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting to calculate power rankings...
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting to calculate power rankings...
+
+Listening on http://127.0.0.1:3600
+Starting to calculate standings...
+Using master_team_standings from global environment
+Successfully created standings from master_team_standings with 8 teams
+Starting to calculate power rankings...
